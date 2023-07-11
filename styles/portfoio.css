@@ -50,14 +50,36 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30 30 30 150px;
+    padding: 30 30 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.banner .ppic {
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
