@@ -85,7 +85,7 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -119,4 +119,15 @@ main{
 
 .about-info {
     text-align: center;
+}
+
+/* what-I-do section styles */
+.whatido {
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
 }
