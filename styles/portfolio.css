@@ -158,3 +158,33 @@ main section {
     color: #474747;
     font-size: 30px;
 }
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-sub-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.resume-sub-title, .resume-item-description {
+    color: #757575;
+}
+
+hr{
+    margin: auto;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
